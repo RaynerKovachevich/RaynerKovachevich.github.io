@@ -1,0 +1,182 @@
+* {
+    margin: 5px;
+    padding: 0px;
+}
+
+a.bottom-right {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #0c0c0c;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #397399;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #ffffff;
+    width: 400px;
+}
+
+@media (max-width: 600px) {
+    .button {
+        font-size: 24px;
+        width: 80%;
+        border-radius: 10px;
+    }
+}
+
+.button:hover {
+    background-color: #104a97;
+}
+
+.button:active {
+    background-color: #74c0f3;
+    box-shadow: 50px 5px #666;
+    transform: translateY(4px);
+}
+
+/* Styles for the list items */
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+}
+
+.list a:hover {
+    color: #52a3c9;
+    font-weight: bold;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 1vw;
+}
+
+li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.push {
+    margin-left: auto;
+}
+
+body {
+    background: #080808;
+}
+
+.area h2 {
+    position: absolute;
+    top: 20%;
+    font-size: 8vw;
+    letter-spacing: 10px;
+    width: 100%;
+    color: #0e1842;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    line-height: 0.70em;
+    text-align: center;
+    text-transform: uppercase;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    0%, 17%, 50%, 65%, 90%, 97% {
+        color: #345279;
+        text-shadow: none;
+    }
+    17.1%, 50.1%, 65.1%, 90.1%, 97.1%, 100% {
+        color: #fff;
+        text-shadow: 5px 5px 17px #03b9ff;
+    }
+}
+
+
+/* .area{
+    width:100%;
+    height:100%;
+}
+.area div{
+    animation:animate2 10s linear infinite;
+    background-color: transparent;
+    border:1px solid #fff;
+    position: absolute;
+}
+div:nth-child(1){
+    left:30%;
+    top:70%;
+    height:40px;
+    width:40px;
+}
+div:nth-child(2){
+    left:60%;
+    top:80%;
+    height:40px;
+    width:40px;
+}
+div:nth-child(3){
+    left:10%;
+    top:30%;
+    height:40px;
+    width:40px;
+}
+div:nth-child(4){
+    left:15%;
+    top:90%;
+    height:40px;
+    width:40px;
+}
+div:nth-child(5){
+    left:45%;
+    top:100%;
+    height:40px;
+    width:40px;
+    animation-delay: 0.5s;
+}
+div:nth-child(6){
+    left:80%;
+    top:90%;
+    height:40px;
+    width:40px;
+}
+div:nth-child(7){
+    left:36%;
+    top:100%;
+    height:40px;
+    width:40px;
+    animation-delay: 4s;
+}
+@keyframes animate2{
+    0%{
+        transform: translateY(0) rotate(0);
+    }
+    100%{
+        transform: translateY(-500px) rotate(360deg);
+    }
+} */
+
